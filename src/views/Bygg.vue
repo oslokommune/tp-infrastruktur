@@ -1,5 +1,7 @@
 <template>
     <div class="home">
+        <v-breadcrumbs :items="items"></v-breadcrumbs>
+
         <h1 class="text-left">Bygg og deploy</h1>
 
         <h2 class="text-left">Versjonskontroll - Github</h2>

@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <h1 class="text-left">Fillagring</h1>
+        <v-breadcrumbs :items="items"></v-breadcrumbs>
 
         <h2 class="text-left">Fillagring – Minio</h2>
 

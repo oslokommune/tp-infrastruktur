@@ -1,5 +1,7 @@
 <template>
     <div class="home">
+        <v-breadcrumbs :items="items"></v-breadcrumbs>
+
         <h1 class="text-left">Integrasjoner</h1>
 
         <h2 class="text-left">Meldingshåndtering – ActiveMQ</h2>
