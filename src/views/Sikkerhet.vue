@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <h4 class="text-left"><router-link to="/">Infrastruktur</router-link> > Sikkerhet</h4>
-    <hr>
+    <v-breadcrumbs :items="items"></v-breadcrumbs>
 
     <img class="float-right" src="../assets/add-mapper.png" width="400px">
     <h2 class="text-left">Ansattautentisering – Keycloak</h2>
@@ -18,8 +17,23 @@
       videresendes til ID-porten.</p>
   </div>
 </template>
+
 <script>
   export default {
     name: 'Sikkerhet',
+    data: () => ({
+      items: [
+        {
+          text: 'Infrastruktur',
+          disabled: false,
+          href: '/'
+        },
+        {
+          text: 'Sikkerhet',
+          disabled: true
+        }
+      ]
+    })
   }
 </script>
+>>>>>>> Breadcrumbs
