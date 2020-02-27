@@ -2,8 +2,8 @@
   <div id="app">
     <Header/>
     <v-app>
-      <v-fade-transition>
-        <router-view class="content"/>
+      <v-fade-transition leave-absolute hide-on-leave>
+        <router-view class="content" />
       </v-fade-transition>
     </v-app>
     <Footer/>
