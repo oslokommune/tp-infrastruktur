@@ -1,10 +1,9 @@
 <template>
     <div class="home">
         <v-breadcrumbs :items="items"></v-breadcrumbs>
+        <h2 class="text-left"><v-icon large>mdi-speedometer</v-icon> Overvåkning</h2>
 
-        <h1 class="text-left">Overvåkning</h1>
-
-        <h2 class="text-left">Overvåkning - Grafana</h2>
+        <h3 class="text-left">Dashboards - Grafana</h3>
 
         <p class="text-left">Overvåkningsløsning for komponenter som kjører på kjøremiljøene driftet av Oslo kommune.
             Løsningen består av et dashboard i Grafana, og en Slack-app som varsler om hendelser – både overvåkning- og
@@ -12,7 +11,7 @@
             kommune sin tjenesteplattform. </p>
 
 
-        <h2 class="text-left">Metrics - Prometheus</h2>
+        <h3 class="text-left">Metrics - Prometheus</h3>
 
         <p class="text-left">Metrics er tallbaserte data som beskriver en egenskap ved et system på et gitt tidspunkt.
             Ved å undersøke ulike metrics om et system, og sjekke hvordan verdiene forandrer seg over tid, kan man få et
