@@ -1,6 +1,7 @@
 <template>
     <div class="home">
         <v-breadcrumbs class="pa-0" :items="items"></v-breadcrumbs>
+        <h2 class="text-left"><v-icon large>mdi-database</v-icon> Lagring</h2>
 
         <h2 class="text-left">Fillagring – Minio</h2>
 

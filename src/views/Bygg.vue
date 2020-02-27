@@ -2,7 +2,7 @@
     <div class="home">
         <v-breadcrumbs class="pa-0" :items="items"></v-breadcrumbs>
 
-        <h1 class="text-left">Bygg og deploy</h1>
+        <h2 class="text-left"><v-icon large>mdi-rocket</v-icon> Bygg og deploy</h2>
 
         <h2 class="text-left">Versjonskontroll - Github</h2>
 
