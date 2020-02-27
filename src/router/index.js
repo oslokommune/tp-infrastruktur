@@ -11,7 +11,7 @@ import Integrasjoner from '../views/Integrasjoner'
 import Lagring from '../views/Lagring'
 import Overvakning from '../views/Overvakning'
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes = [
   {

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1 class="text-left">Team Infrastruktur</h1>
+    <h4 class="text-left mb-3">Infrastruktur</h4>
     <p class="text-left">Selvbetjente tjenester for å hjelpe utviklere i Oslo kommune med effektiv utvikling og forvaltning av digitale løsninger.</p>
     <tjenesteoversikt/>
   </div>
