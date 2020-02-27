@@ -6,6 +6,10 @@ import Inspiration from '../views/Inspiration'
 import Awards from '../views/Awards'
 import Resources from '../views/Resources'
 import Sikkerhet from '../views/Sikkerhet'
+import Bygg from '../views/Bygg'
+import Integrasjoner from '../views/Integrasjoner'
+import Lagring from '../views/Lagring'
+import Overvakning from '../views/Overvakning'
 
 Vue.use(VueRouter)
 
@@ -43,18 +47,22 @@ const routes = [
   {
     path: '/bygg',
     name: 'Bygg',
+    component: Bygg
   },
   {
     path: '/lagring',
     name: 'Lagring',
+    component: Lagring
   },
   {
     path: '/integrasjoner',
     name: 'Integrasjoner',
+    component: Integrasjoner
   },
   {
     path: '/overvakning',
     name: 'Overvakning',
+    component: Overvakning
   },
 ];
 
