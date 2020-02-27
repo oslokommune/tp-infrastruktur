@@ -12,7 +12,11 @@
 
         <h2 class="text-left">Jenkins</h2>
 
-        <p class="text-left">Et eller annet om jenkins</p>
+        <p class="text-left">Det er installert en versjon av Jenkins i Kubernetes-clusteret k8s-test.
+            En kan gå inn på Jenkins Dashboard for ITAS for å se på aktiviteten på byggserveren.
+            Opplegget rundt bygg er bassert på at Github-organisajonene registreres i Jenkins, og at det opprettes en
+            Jenkinsfile i rot-katalogen på de repositoriene som skal bygges. Trigging av bygg skjer ved hjelp av
+            webhooks. Når det skjer endringer i et repository vil Jenkins bli varslet og et nytt bygg blir startet.</p>
 
 
         <h2 class="text-left">Mediebibliotek – Nexus</h2>
