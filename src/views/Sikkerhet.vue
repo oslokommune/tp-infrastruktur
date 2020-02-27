@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <h1 class="text-left">Sikkerhet</h1>
+    <h4 class="text-left"><router-link to="/">Infrastruktur</router-link> > Sikkerhet</h4>
+    <hr>
 
     <img class="float-right" src="../assets/add-mapper.png" width="400px">
     <h2 class="text-left">Ansattautentisering – Keycloak</h2>
