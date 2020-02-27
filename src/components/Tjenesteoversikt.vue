@@ -1,5 +1,5 @@
 <template>
-  <v-container class="pr-0 pl-0">
+  <v-container class="pr-0 pl-0 mt-8">
     <v-row no-gutters>
       <v-col v-for="(tjeneste, index) in tjenester">
         <v-card height="300px" :to="tjeneste.side" :key="`tjenesteboks-${index}`" :id="tjeneste.id" flat tile>
@@ -9,7 +9,7 @@
             </v-icon>
             <span>{{ tjeneste.overskrift }}</span>
           </v-card-title>
-          <v-card-text class="text-left">{{ tjeneste.beskrivelse }}</v-card-text>
+          <v-card-text class="text-left boks-tekst">{{ tjeneste.beskrivelse }}</v-card-text>
         </v-card>
       </v-col>
     </v-row>
@@ -66,6 +66,11 @@
 <style scoped lang="scss">
 
   @import '~@tuuturu/styling/style';
+  .boks-tekst {
+    font-size: 1em;
+    font-family:  "Oslo Sans", Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+  }
   #bygg{
     background: $green;
   }
