@@ -67,10 +67,10 @@
 
   @import '~@tuuturu/styling/style';
   #bygg{
-    background: $red;
+    background: $green;
   }
   #sikkerhet{
-    background: $green-light
+    background: $red
   }
   #lagring{
     background: $beige-dark
