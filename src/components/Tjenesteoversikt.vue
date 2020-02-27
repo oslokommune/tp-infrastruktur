@@ -3,7 +3,13 @@
     <v-row>
       <v-col v-for="tjeneste in tjenester">
         <v-card height="300px">
-          <v-card-title>{{ tjeneste.overskrift }}</v-card-title>
+          <v-card-title>
+            <v-icon large left>
+              {{ tjeneste.illustrasjon }}
+            </v-icon>
+
+            <span>{{ tjeneste.overskrift }}</span>
+          </v-card-title>
           <v-card-text class="text-left">{{ tjeneste.beskrivelse }}</v-card-text>
         </v-card>
       </v-col>
@@ -39,7 +45,7 @@
           },
           {
             overskrift: 'Overvåkning',
-            illustrasjon: '',
+            illustrasjon: 'mdi-speedometer',
             beskrivelse: 'Bedre kontroll på hvordan applikasjonen din oppfører seg i sanntid med dashboards, varsling og logger.'
           },
         ]
