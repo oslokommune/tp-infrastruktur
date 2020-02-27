@@ -26,7 +26,7 @@
         {
           text: 'Infrastruktur',
           disabled: false,
-          href: '/'
+          to: "/"
         },
         {
           text: 'Sikkerhet',
