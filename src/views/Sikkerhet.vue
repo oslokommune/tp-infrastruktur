@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <v-breadcrumbs :items="items"></v-breadcrumbs>
+    <v-breadcrumbs class="pa-0" :items="items"></v-breadcrumbs>
     <h2 class="text-left"><v-icon large>mdi-security</v-icon> Sikkerhet</h2>
 
     <img class="float-right" src="../assets/add-mapper.png" width="300px">

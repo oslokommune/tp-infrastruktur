@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <v-breadcrumbs :items="items"></v-breadcrumbs>
+        <v-breadcrumbs class="pa-0" :items="items"></v-breadcrumbs>
         <h2 class="text-left"><v-icon large>mdi-speedometer</v-icon> Overvåkning</h2>
 
         <h3 class="text-left">Dashboards - Grafana</h3>

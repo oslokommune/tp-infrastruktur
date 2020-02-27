@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <v-breadcrumbs :items="items"></v-breadcrumbs>
+        <v-breadcrumbs class="pa-0" :items="items"></v-breadcrumbs>
 
         <h1 class="text-left">Bygg og deploy</h1>
 
