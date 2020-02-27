@@ -18,3 +18,8 @@
       videresendes til ID-porten.</p>
   </div>
 </template>
+<script>
+  export default {
+    name: 'Sikkerhet',
+  }
+</script>

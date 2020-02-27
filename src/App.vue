@@ -2,7 +2,9 @@
   <div id="app">
     <Header/>
     <v-app>
-      <router-view class="content"/>
+      <v-fade-transition>
+        <router-view class="content"/>
+      </v-fade-transition>
     </v-app>
     <Footer/>
   </div>

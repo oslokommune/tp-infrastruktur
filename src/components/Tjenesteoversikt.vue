@@ -1,8 +1,8 @@
 <template>
   <v-container>
     <v-row>
-      <v-col v-for="tjeneste in tjenester">
-        <v-card height="300px" :to="tjeneste.side">
+      <v-col v-for="(tjeneste, index) in tjenester">
+        <v-card height="300px" :to="tjeneste.side" :key="`tjenesteboks-${index}`">
           <v-card-title>
             <v-icon large left>
               {{ tjeneste.illustrasjon }}
