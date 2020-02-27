@@ -1,5 +1,7 @@
 <template>
     <div class="home">
+        <v-breadcrumbs :items="items"></v-breadcrumbs>
+
         <h1 class="text-left">Overvåkning</h1>
 
         <h2 class="text-left">Overvåkning - Grafana</h2>
@@ -18,3 +20,22 @@
 
     </div>
 </template>
+
+<script>
+    export default {
+        name: 'Overvåkning',
+        data: () => ({
+            items: [
+                {
+                    text: 'Infrastruktur',
+                    disabled: false,
+                    to: "/"
+                },
+                {
+                    text: 'Overvåkning',
+                    disabled: true
+                }
+            ]
+        })
+    }
+</script>
