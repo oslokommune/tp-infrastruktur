@@ -46,7 +46,7 @@
           {
             id: 'integrasjoner',
             overskrift: 'Integrasjoner',
-            illustrasjon: 'mdi-math-integral',
+            illustrasjon: 'mdi-cogs',
             beskrivelse: 'Koble sammen applikasjoner og tjenester med meldingskøer.',
             side: {name: 'Integrasjoner'}
           },
