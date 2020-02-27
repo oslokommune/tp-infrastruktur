@@ -21,3 +21,22 @@
 
     </div>
 </template>
+
+<script>
+    export default {
+        name: 'Bygg',
+        data: () => ({
+            items: [
+                {
+                    text: 'Infrastruktur',
+                    disabled: false,
+                    to: "/"
+                },
+                {
+                    text: 'Bygg og deploy',
+                    disabled: true
+                }
+            ]
+        })
+    }
+</script>

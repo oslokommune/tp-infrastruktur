@@ -13,3 +13,22 @@
         <p class="text-left">Keycloak er en autentiseringstjeneste som tilbyr innlogging både for ansatte og innbyggere. Keycloak støtter OpenIDConnect og SAML 2.0, og gir single sign on på tvers av tjenester og protokoller. Innbyggere videresendes til ID-porten.</p>
     </div>
 </template>
+
+<script>
+    export default {
+        name: 'Lagring',
+        data: () => ({
+            items: [
+                {
+                    text: 'Infrastruktur',
+                    disabled: false,
+                    to: "/"
+                },
+                {
+                    text: 'Lagring',
+                    disabled: true
+                }
+            ]
+        })
+    }
+</script>
