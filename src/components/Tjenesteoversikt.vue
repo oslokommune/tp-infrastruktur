@@ -24,25 +24,25 @@
         tjenester: [
           {
             overskrift: 'Bygg og deploy',
-            illustrasjon: '',
+            illustrasjon: 'mdi-rocket',
             beskrivelse: 'Automatisere testing, pakking og utrulling av applikasjoner og tjenester.',
             side: {name: 'Bygg'}
           },
           {
             overskrift: 'Sikkerhet',
-            illustrasjon: '',
+            illustrasjon: 'mdi-security',
             beskrivelse: 'Sikre applikasjonen med innlogging både for ansatte og innbyggere.',
             side: {name: 'Sikkerhet'}
           },
           {
             overskrift: 'Lagring',
-            illustrasjon: '',
+            illustrasjon: 'mdi-database',
             beskrivelse: 'Enkel tilgang på sikker datalagring.',
             side: {name: 'Lagring'}
           },
           {
             overskrift: 'Integrasjoner',
-            illustrasjon: '',
+            illustrasjon: 'mdi-math-integral',
             beskrivelse: 'Koble sammen applikasjoner og tjenester med meldingskøer.',
             side: {name: 'Integrasjoner'}
           },

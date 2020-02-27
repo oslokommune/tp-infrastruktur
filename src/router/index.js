@@ -7,7 +7,7 @@ import Awards from '../views/Awards'
 import Resources from '../views/Resources'
 import Sikkerhet from '../views/Sikkerhet'
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes = [
   {
