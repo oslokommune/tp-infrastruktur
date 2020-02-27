@@ -9,3 +9,22 @@
 
     </div>
 </template>
+
+<script>
+    export default {
+        name: 'Lagring',
+        data: () => ({
+            items: [
+                {
+                    text: 'Infrastruktur',
+                    disabled: false,
+                    to: "/"
+                },
+                {
+                    text: 'Lagring',
+                    disabled: true
+                }
+            ]
+        })
+    }
+</script>

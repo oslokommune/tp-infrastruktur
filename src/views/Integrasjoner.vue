@@ -11,3 +11,22 @@
 
     </div>
 </template>
+
+<script>
+    export default {
+        name: 'Integrasjoner',
+        data: () => ({
+            items: [
+                {
+                    text: 'Infrastruktur',
+                    disabled: false,
+                    to: "/"
+                },
+                {
+                    text: 'Integrasjoner',
+                    disabled: true
+                }
+            ]
+        })
+    }
+</script>
