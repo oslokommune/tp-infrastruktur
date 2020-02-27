@@ -4,7 +4,7 @@
       <v-col v-for="tjeneste in tjenester">
         <v-card height="300px">
           <v-card-title>{{ tjeneste.overskrift }}</v-card-title>
-          <v-card-text>{{ tjeneste.beskrivelse }}</v-card-text>
+          <v-card-text class="text-left">{{ tjeneste.beskrivelse }}</v-card-text>
         </v-card>
       </v-col>
     </v-row>
@@ -18,29 +18,29 @@
       return {
         tjenester: [
           {
-            overskrift: 'Overskrift',
+            overskrift: 'Bygg og deploy',
             illustrasjon: '',
-            beskrivelse: 'Dette er beskrivelsen av tjenesten vår.'
+            beskrivelse: 'Automatisere testing, pakking og utrulling av applikasjoner og tjenester.'
           },
           {
-            overskrift: 'Overskrift',
+            overskrift: 'Sikkerhet',
             illustrasjon: '',
-            beskrivelse: 'Dette er beskrivelsen av tjenesten vår.'
+            beskrivelse: 'Sikre applikasjonen med innlogging både for ansatte og innbyggere.'
           },
           {
-            overskrift: 'Overskrift',
+            overskrift: 'Lagring',
             illustrasjon: '',
-            beskrivelse: 'Dette er beskrivelsen av tjenesten vår.'
+            beskrivelse: 'Enkel tilgang på sikker datalagring.'
           },
           {
-            overskrift: 'Overskrift',
+            overskrift: 'Integrasjoner',
             illustrasjon: '',
-            beskrivelse: 'Dette er beskrivelsen av tjenesten vår.'
+            beskrivelse: 'Koble sammen applikasjoner og tjenester med meldingskøer.'
           },
           {
-            overskrift: 'Overskrift',
+            overskrift: 'Overvåkning',
             illustrasjon: '',
-            beskrivelse: 'Dette er beskrivelsen av tjenesten vår.'
+            beskrivelse: 'Bedre kontroll på hvordan applikasjonen din oppfører seg i sanntid med dashboards, varsling og logger.'
           },
         ]
       }
