@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <tjenesteoversikt/>
 	<h1>Team Infrastruktur</h1>
     <div>Selvbetjente tjenester for å hjelpe utviklere i Oslo kommune med effektiv utvikling og forvaltning av digitale løsninger.</div>
 
@@ -23,8 +24,10 @@
 <script>
 // @ is an alias to /src
 
+import Tjenesteoversikt from "../components/Tjenesteoversikt";
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {Tjenesteoversikt}
 }
 </script>
 

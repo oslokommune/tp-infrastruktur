@@ -13,14 +13,17 @@
     "minireset.css": "0.0.6",
     "styleguide": "https://github.com/oslokommune/styleguide.git#0.35.10",
     "vue": "^2.6.11",
-    "vue-router": "^3.1.5"
+    "vue-router": "^3.1.5",
+    "vuetify": "^2.2.15"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
     "@vue/cli-plugin-router": "~4.2.0",
     "@vue/cli-service": "~4.2.0",
-    "node-sass": "^4.12.0",
+    "sass": "^1.19.0",
     "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "vue-cli-plugin-vuetify": "^2.0.2",
+    "vuetify-loader": "^1.3.0"
   }
 }
