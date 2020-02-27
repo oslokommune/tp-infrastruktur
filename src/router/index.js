@@ -38,12 +38,28 @@ const routes = [
   {
     path: '/sikkerhet',
     name: 'Sikkerhet',
-    component: Sikkerhet
-  }
-]
+    component: Sikkerhet,
+  },
+  {
+    path: '/bygg',
+    name: 'Bygg',
+  },
+  {
+    path: '/lagring',
+    name: 'Lagring',
+  },
+  {
+    path: '/integrasjoner',
+    name: 'Integrasjoner',
+  },
+  {
+    path: '/overvakning',
+    name: 'Overvakning',
+  },
+];
 
 const router = new VueRouter({
   routes
-})
+});
 
 export default router

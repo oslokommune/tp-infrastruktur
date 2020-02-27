@@ -2,12 +2,11 @@
   <v-container>
     <v-row>
       <v-col v-for="tjeneste in tjenester">
-        <v-card height="300px">
+        <v-card height="300px" :to="tjeneste.side">
           <v-card-title>
             <v-icon large left>
               {{ tjeneste.illustrasjon }}
             </v-icon>
-
             <span>{{ tjeneste.overskrift }}</span>
           </v-card-title>
           <v-card-text class="text-left">{{ tjeneste.beskrivelse }}</v-card-text>
@@ -26,27 +25,32 @@
           {
             overskrift: 'Bygg og deploy',
             illustrasjon: '',
-            beskrivelse: 'Automatisere testing, pakking og utrulling av applikasjoner og tjenester.'
+            beskrivelse: 'Automatisere testing, pakking og utrulling av applikasjoner og tjenester.',
+            side: {name: 'Bygg'}
           },
           {
             overskrift: 'Sikkerhet',
             illustrasjon: '',
-            beskrivelse: 'Sikre applikasjonen med innlogging både for ansatte og innbyggere.'
+            beskrivelse: 'Sikre applikasjonen med innlogging både for ansatte og innbyggere.',
+            side: {name: 'Sikkerhet'}
           },
           {
             overskrift: 'Lagring',
             illustrasjon: '',
-            beskrivelse: 'Enkel tilgang på sikker datalagring.'
+            beskrivelse: 'Enkel tilgang på sikker datalagring.',
+            side: {name: 'Lagring'}
           },
           {
             overskrift: 'Integrasjoner',
             illustrasjon: '',
-            beskrivelse: 'Koble sammen applikasjoner og tjenester med meldingskøer.'
+            beskrivelse: 'Koble sammen applikasjoner og tjenester med meldingskøer.',
+            side: {name: 'Integrasjoner'}
           },
           {
             overskrift: 'Overvåkning',
             illustrasjon: 'mdi-speedometer',
-            beskrivelse: 'Bedre kontroll på hvordan applikasjonen din oppfører seg i sanntid med dashboards, varsling og logger.'
+            beskrivelse: 'Bedre kontroll på hvordan applikasjonen din oppfører seg i sanntid med dashboards, varsling og logger.',
+            side: {name: 'Overvakning'}
           },
         ]
       }
