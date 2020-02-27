@@ -4,7 +4,7 @@
 
         <h2 class="text-left"><v-icon large>mdi-math-integral</v-icon> Integrasjoner</h2>
 
-        <h2 class="text-left">Meldingshåndtering – ActiveMQ</h2>
+        <h3 class="text-left">Meldingshåndtering – ActiveMQ</h3>
 
         <p class="text-left">Meldingsbuss for tjenester som kommuniserer med komponenter driftet hos Oslo kommune.
             Løsningen har asynkron meldingsleveranse og er satt opp med feilhåndteringstiltak om noe skulle gå galt.
