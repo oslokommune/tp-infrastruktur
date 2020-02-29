@@ -11,7 +11,7 @@
 </template>
 
 <script>
-  import {Header, Footer} from '@tuuturu/vue/page'
+  import {Header, Footer} from '@oslokommune/vue/page'
 
   export default {
     components: {Header, Footer}
@@ -22,7 +22,7 @@
   $osg-font-path: '~styleguide/src/assets/fonts';
   @import '~styleguide/src/assets/sass/common';
 
-  @import '~@tuuturu/styling/style';
+  @import '~@oslokommune/styling/style';
 
   a {
     color: $blue-dark;

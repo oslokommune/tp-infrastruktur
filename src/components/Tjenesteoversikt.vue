@@ -65,7 +65,7 @@
 
 <style scoped lang="scss">
 
-  @import '~@tuuturu/styling/style';
+  @import '~@oslokommune/styling/style';
   .boks-tekst {
     font-size: 1em;
     font-family:  "Oslo Sans", Avenir, Helvetica, Arial, sans-serif;
